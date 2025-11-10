@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+#user-info {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.hidden { display: none; }
+
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.auth-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.auth-tabs .tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #eee;
+  border: none;
+  border-radius: 4px 4px 0 0;
+  margin: 0 2px;
+}
+
+.auth-tabs .tab.active {
+  background: #4CAF50;
+  color: white;
+}
+
+.auth-form input, .auth-form button, #note-form input, #note-form textarea, #note-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.note-card {
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.note-card .edit-btn {
+  position: absolute;
+  top: 5px;
+  right: 50px;
+  padding: 3px 6px;
+  font-size: 12px;
+  background: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.note-card .edit-btn:hover {
+  background: #1976D2;
+}
+
+
+.note-card button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 3px 6px;
+  font-size: 12px;
+}
