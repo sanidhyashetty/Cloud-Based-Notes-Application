@@ -115,9 +115,6 @@ Cloud Integration: Cloud data storage and access
 API Development: RESTful routes for CRUD operations
 Version Control: Git & GitHub
 
-📸Demo Preview
-<img width="1920" height="873" alt="cloud notes output 2" src="https://github.com/user-attachments/assets/4639a67b-5105-4052-9274-5951854f6959" />
-
 
 🧑‍🎓 Developer Information
 
